@@ -1,0 +1,38 @@
+{
+  "name": "express-api-scraping-server",
+  "version": "1.0.0",
+  "description": "A NodeJS REST API scraping server template to convert a website without an API to one who has (kind of).",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bob123world/node-express-api-scraping-server.git"
+  },
+  "keywords": [
+    "scraping",
+    "nodejs",
+    "express",
+    "api",
+    "scraper"
+  ],
+  "author": "Michael Deboeure",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/bob123world/node-express-api-scraping-server/issues"
+  },
+  "homepage": "https://github.com/bob123world/node-express-api-scraping-server#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10"
+  }
+}
